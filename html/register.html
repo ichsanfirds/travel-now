@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="content">
+                <div class="kiri">
+                    <img src="../img/tranowLogo.png" alt="">
+                    <br> <p>“Traveling leaves you speechless, then turns you into a storyteller.”<br><b>– Ibn Battuta</b></p>
+                    <br> <p>“Travel makes one modest. You see what a tiny place you occupy in the world.”<br><b>– Gustave Flaubert</b></p>
+                </div>
+                <div class="kanan">
+                    <div class="formContainer">
+                        <div class="formText">
+                            <h2>Create Your Journey</h2> <br> <br>
+                        </div>
+                        <div class="formField">
+                            <form action="" id="form">
+                                <div class="textField">
+                                    <input type="text" placeholder="Name" id="fullName">
+                                    <br>
+                                    <input type="text" placeholder="Username" id="userName">
+                                    <br>
+                                    <input type="password" placeholder="Password" id="password">
+                                    <br>
+                                    <input type="date" placeholder="Date" id="date">
+                                    <br>
+                                </div>
+                                <div class="radio">
+                                    <div class="male">
+                                        <input type="radio" class="gender" name="gender">Male
+                                    </div>
+                                    <div class="female">
+                                        <input type="radio" class="gender" name="gender">Female
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="button">
+                                    <button type="button" id="button" onclick="register()"><b>SUBMIT</b></button>
+                                </div>
+                                <a href="../html/login.html"><b>Login Here!</b></a>
+                                <a href="../html/main.html"><b>Home</b></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../jscript/scriptRegister.js"></script>
+</html>
